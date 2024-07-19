@@ -1,0 +1,25 @@
+<p>publishers works!</p>
+<section>
+    <div class="container">
+        <div class="row">
+            <div class="col">
+                <table>
+                    <tr>
+                        <th>Name</th>
+                        <th>Mobile</th>
+                        <th>Email</th>
+                        <th>Address</th>
+                    </tr>
+                    @for (publisher of publishers; track $index) {
+                        <tr>
+                            <td>{{publisher.name}}</td>
+                            <td>{{publisher.mobile}}</td>
+                            <td>{{publisher.email}}</td>
+                            <td>{{publisher.address}}</td>
+                        </tr>
+                    }
+                </table>
+            </div>
+        </div>
+    </div>
+</section>

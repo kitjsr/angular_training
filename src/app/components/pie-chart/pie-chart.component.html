@@ -1,0 +1,17 @@
+<p>pie-chart works!</p>
+<section>
+    <div class="container">
+        <div class="row">
+            <div class="col">
+                <canvas baseChart
+                [type]="'pie'"
+                [datasets]="pieChartDatasets"
+                [labels]="pieChartLabels"
+                [options]="pieChartOptions"
+                [plugins]="pieChartPlugins"
+                [legend]="pieChartLegend">
+              </canvas>
+              </div>
+        </div>
+    </div>
+</section>
